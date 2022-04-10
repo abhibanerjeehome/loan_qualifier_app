@@ -1,33 +1,49 @@
-# Project Title
-
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+# Loan Qualifier Application
+This is a CLI (Command Line Interface) application that determines a User's qualifications for a loan.  It asks questions of the user related to loan criteria.  Based on User's inputs, the system decides which loans this User will qualify for.  The system then provides the option to save the qualified loans as a csv file for the User to import as an Excel document. 
 
 ---
 
 ## Technologies
-
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+python 3.9.10
+questionary 
+fire
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+Download the application and all files within folder "LOAN_QUALIFER_APP"
+Navigate to the root of the folder "LOAN_QUALIFER_APP"
+Run the application by opening up your Terminal or Console App and typing the command: 'python app.py'
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+Loan Qualified app asks questions of the User:
+- Provide file path location of the file data/daily_rate_sheet.csv
+- Answer questions as :
+? Enter a file path to a rate-sheet (.csv): /Users/abhi/Documents/GitHub/loan_qualifier_app/data/daily_rate_sheet.csv
+? What's your credit score? 700
+? What's your current amount of monthly debt? 1000
+? What's your total monthly income? 3000
+? What's your desired loan amount? 3000
+? What's your home value? 100000
+The monthly debt to income ratio is 0.33
+The loan to value ratio is 0.03.
+Found 11 qualifying loans
+? Would you like to save the qualifying loans as a csv file? Yes
+? Enter a file path where you would like to save the qualifying loans (.csv): /Users/abhi/Documents/GitHub/loan_qualifier_app/data/qualifying_loans.c
+sv
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+Abhi Banerjee
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+Gnu Public License

@@ -1,0 +1,293 @@
+   50  brew install --cask java
+   51  brew --cask install java
+   52  brew tap adoptopenjdk/openjdk
+   53  brew install adoptopenjdk13 --cask
+   54  java
+   55  java --version
+   56  JAVA_HOME
+   57  $JAVA_HOME
+   58  conda
+   59  brew install miniforge
+   60  conda
+   61  conda install anaconda-clean
+   62  conda install anaconda--clean
+   63  anaconda-clean
+   64  echo $PATH
+   65  ls /opt
+   66  ls /opt/homebrew
+   67  conda update conda
+   68  conda update anaconda
+   69  conda info
+   70  conda list
+   71  conda list --name base conda
+   72  conda update --all
+   73  conda list --name base conda
+   74  conda update anaconda
+   75  conda update conda
+   76  python
+   77  /Users/abhi/opt/anaconda3/bin/jupyter_mac.command ; exit;
+   78  conda activate dev
+   79  conda init bash
+   80  conda activate dev
+   81  python --version
+   82  conda activate dev
+   83  conda create -n dev python=3.10 conda
+   84  conda activate dev
+   85  conda init zsh
+   86  java
+   87  java --version
+   88  echo $JAVA_H0ME
+   89  locate java
+   90   java --version
+   91  java
+   92  conda activate dev
+   93  python --version
+   94  conda deactivate
+   95  python --version
+   96  conda create -n dev python=3.9.10 conda
+   97  conda activate dev
+   98  python --version
+   99  conda deactivate
+  100  python --version
+  101  echo #{SHELL}
+  102  echo #zsh
+  103  echo #{zsh}
+  104  echo #{}
+  105  echo # {SHELL}
+  106  echo #SHELL
+  107  shell
+  108  python -m ipykernel install --user --name dev
+  109  conda install ipykernel
+  110  python -m ipykernel install --user --name dev
+  111  conda install -c conda-forge nodejs
+  112  conda activate dev
+  113  java --version
+  114  echo $PATH
+  115  echo $HOME
+  116  jupyter lab
+  117  python -m ipykernel install --user --name dev
+  118  conda install ipykernel
+  119  python -m ipykernel install --user --name dev
+  120  conda install -c conda-forge nodejs
+  121  jupyter lab
+  122  jupyter --version
+  123  conda deactivate
+  124  brew install node
+  125  node
+  126  ls
+  127  locate camp
+  128  cd opt
+  129  ls
+  130  cd ..
+  131  cd Documents
+  132  ls
+  133  cd GitHub
+  134  ls
+  135  git clone https://github.com/abhibanerjeehome/module1.git
+  136  ls
+  137  cd module1
+  138  ls
+  139  touch README.md
+  140  nano README.md
+  141  git st
+  142  git status
+  143  git add .
+  144  git status
+  145  git commit -m "initial upload"
+  146  git push
+  147  git push
+  148  ls -la ~/.ssh
+  149  ls -al ~/.ssh
+  150  eval "$(ssh-agent -s)"
+  151  open ~/.ssh/config
+  152  ssh-add -K ~/.ssh/id_ed25519
+  153  ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+  154  pbcopy < ~/.ssh/id_ed25519.pub
+  155  git status
+  156  git push
+  157  git push
+  158  git push
+  159  git push
+  160  git push
+  161  cd Documents/GitHub/module1
+  162  git push
+  163  git push
+  164  ssh-keygen -p -f ~/.ssh/id_ed25519
+  165  ssh -T git@github.com
+  166  git push
+  167  source /opt/homebrew/Caskroom/miniforge/base/bin/activate
+  168  conda activate dev
+  169  /opt/homebrew/Caskroom/miniforge/base/envs/dev/bin/python /Users/abhi/.vscode/extensions/ms-python.python-2022.2.1924087327/pythonFiles/shell_exec.py conda install -c conda-forge --name dev notebook -y /var/folders/4b/vznp33fn2qq_x93m7sr629_h0000gn/T/tmp-20116e6fIKzlG0SfT.log
+  170  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  171  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  172  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  173  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  174  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  175  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  176  ls
+  177  cd Activities
+  178  ls
+  179  cd 01_Ins_Variables/Solved
+  180  ls
+  181  python variables.py
+  182  pwd
+  183  conda activate dev
+  184  pwd
+  185  python variables.py
+  186  python --version
+  187  cd Documents/GitHub/module1
+  188  git push
+  189  git branch
+  190  cd ..
+  191  ls
+  192  cd camp
+  193  code .
+  194  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/05_Ins_Dictionaries/Solved/dicts.py
+  195  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/05_Ins_Dictionaries/Solved/dicts.py
+  196  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/02_Stu_Percent_Increase/Unsolved/percent_increase.py
+  197  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/02_Stu_Percent_Increase/Unsolved/percent_increase.py
+  198  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/04_Stu_Manipulating_Lists/Unsolved/manipulating_lists.py
+  199  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/04_Stu_Manipulating_Lists/Unsolved/manipulating_lists.py
+  200  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/04_Stu_Manipulating_Lists/Unsolved/manipulating_lists.py
+  201  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/04_Stu_Manipulating_Lists/Unsolved/manipulating_lists.py
+  202  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/04_Stu_Manipulating_Lists/Unsolved/manipulating_lists.py
+  203  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/04_Stu_Manipulating_Lists/Unsolved/manipulating_lists.py
+  204  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/04_Stu_Manipulating_Lists/Unsolved/manipulating_lists.py
+  205  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/04_Stu_Manipulating_Lists/Unsolved/manipulating_lists.py
+  206  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/06_Stu_Working_with_Dictionaries/Unsolved/dictionaries.py
+  207  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/06_Stu_Working_with_Dictionaries/Unsolved/dictionaries.py
+  208  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/06_Stu_Working_with_Dictionaries/Unsolved/dictionaries.py
+  209  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/06_Stu_Working_with_Dictionaries/Unsolved/dictionaries.py
+  210  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/06_Stu_Working_with_Dictionaries/Unsolved/dictionaries.py
+  211  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/06_Stu_Working_with_Dictionaries/Unsolved/dictionaries.py
+  212  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/06_Stu_Working_with_Dictionaries/Unsolved/dictionaries.py
+  213  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/06_Stu_Working_with_Dictionaries/Unsolved/dictionaries.py
+  214  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/06_Stu_Working_with_Dictionaries/Unsolved/dictionaries.py
+  215  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/02_Stu_Percent_Increase/Solved/percent_increase.py
+  216  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/Activities/04_Stu_Manipulating_Lists/Unsolved/listing_assets.py
+  217  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  218  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  219  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  220  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  221  /usr/bin/python3
+  222  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  223  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  224  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  225  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  226  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  227  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  228  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  229  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  230  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  231  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  232  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  233  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  234  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  235  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  236  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  237  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  238  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  239  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  240  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  241  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  242  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  243  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  244  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/challenge/loan_analyzer.py
+  245  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/UCB-VIRT-FIN-PT-03-2022-U-B-main/Activities/02-Financial-Applications-Python/1/Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+  246  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/UCB-VIRT-FIN-PT-03-2022-U-B-main/Activities/02-Financial-Applications-Python/1/Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+  247  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/UCB-VIRT-FIN-PT-03-2022-U-B-main/Activities/02-Financial-Applications-Python/1/Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+  248  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/UCB-VIRT-FIN-PT-03-2022-U-B-main/Activities/02-Financial-Applications-Python/1/Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+  249  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/UCB-VIRT-FIN-PT-03-2022-U-B-main/Activities/02-Financial-Applications-Python/1/Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+  250  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/UCB-VIRT-FIN-PT-03-2022-U-B-main/Activities/02-Financial-Applications-Python/1/Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+  251  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/UCB-VIRT-FIN-PT-03-2022-U-B-main/Activities/02-Financial-Applications-Python/1/Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+  252  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/UCB-VIRT-FIN-PT-03-2022-U-B-main/Activities/02-Financial-Applications-Python/1/Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+  253  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/UCB-VIRT-FIN-PT-03-2022-U-B-main/Activities/02-Financial-Applications-Python/1/Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+  254  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/UCB-VIRT-FIN-PT-03-2022-U-B-main/Activities/02-Financial-Applications-Python/1/Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+  255  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/UCB-VIRT-FIN-PT-03-2022-U-B-main/Activities/02-Financial-Applications-Python/1/Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+  256  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/UCB-VIRT-FIN-PT-03-2022-U-B-main/Activities/02-Financial-Applications-Python/1/Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+  257  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/UCB-VIRT-FIN-PT-03-2022-U-B-main/Activities/02-Financial-Applications-Python/1/Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+  258  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/UCB-VIRT-FIN-PT-03-2022-U-B-main/Activities/02-Financial-Applications-Python/1/Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+  259  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/UCB-VIRT-FIN-PT-03-2022-U-B-main/Activities/02-Financial-Applications-Python/1/Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+  260  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/UCB-VIRT-FIN-PT-03-2022-U-B-main/Activities/02-Financial-Applications-Python/1/Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+  261  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/UCB-VIRT-FIN-PT-03-2022-U-B-main/Activities/02-Financial-Applications-Python/1/Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+  262  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/UCB-VIRT-FIN-PT-03-2022-U-B-main/Activities/02-Financial-Applications-Python/1/Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+  263  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/UCB-VIRT-FIN-PT-03-2022-U-B-main/Activities/02-Financial-Applications-Python/1/Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+  264  /usr/bin/python3 /Users/abhi/Documents/GitHub/module1/UCB-VIRT-FIN-PT-03-2022-U-B-main/Activities/02-Financial-Applications-Python/1/Activities/01_Stu_Python_Code_Drills/Unsolved/05-dicts-02/Unsolved/dicts-02.py
+  265  python
+  266  python
+  267  ls
+  268  cd Documents/GitHub
+  269  ls
+  270  git clone https://ucb.bootcampcontent.com/UCB-Coding-Bootcamp/UCB-VIRT-FIN-PT-03-2022-U-B.git
+  271  $PATH
+  272  ls
+  273  cd IdeaProjects
+  274  ls
+  275  mkdir workspace
+  276  cd workspace
+  277  ls
+  278  git clone https://abhibanerjee@bitbucket.org/abhibanerjee/mkt-services.git
+  279  git clone https://abhibanerjee@bitbucket.org/abhibanerjee/mkt-services.git
+  280  cd ..
+  281  cd ..
+  282  ls
+  283  cd Documents/
+  284  ls
+  285  cd GitHub
+  286  ls
+  287  cd module1
+  288  ls
+  289  git st
+  290  git status
+  291  git status
+  292  git status
+  293  git add .gitignore
+  294  git add challenge/loan_analyzer.py
+  295  git status
+  296  git commit -m "add loan analyzer with rounding"
+  297  git push
+  298  git status
+  299  git add challenge/loan_analyzer.py
+  300  git commit -m "added constants to reuse key names"
+  301  git push
+  302  /usr/bin/python3 /Users/abhi/Documents/GitHub/loan_qualifier_app/app.py
+  303  /usr/bin/python3 /Users/abhi/Documents/GitHub/loan_qualifier_app/app.py
+  304  /usr/bin/python3 /Users/abhi/Documents/GitHub/loan_qualifier_app/app.py
+  305  /usr/bin/python3 /Users/abhi/Documents/GitHub/loan_qualifier_app/app.py
+  306  /usr/bin/python3 /Users/abhi/Documents/GitHub/loan_qualifier_app/test.py
+  307  /usr/bin/python3 /Users/abhi/Documents/GitHub/loan_qualifier_app/app.py
+  308  ls
+  309  python app.py
+  310  clear
+  311  ls
+  312  python app.py
+  313  clear
+  314  python app.py
+  315  clear
+  316  python app.py
+  317  clear
+  318  python app.py
+  319  clear
+  320  python app.py
+  321  clear
+  322  python app.py
+  323  clear
+  324  python app.py
+  325  python app.py
+  326  python app.py
+  327  python app.py
+  328  clear
+  329  python app.py
+  330  clear
+  331  python app.py
+  332  python app.py
+  333  1000
+  334  python app.py
+  335  python app.py
+  336  clear
+  337  python app.py
+  338  python app.py
+  339  clear
+  340  python app.py
+  341  python app.py
+  342  python app.py

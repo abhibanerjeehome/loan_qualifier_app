@@ -61,6 +61,20 @@ def get_applicant_info():
     return credit_score, debt, income, loan_amount, home_value
 
 
+def graceful_exit():
+    sys.exit('Thank you for using Loan Qualifier App. Bye for now!')
+
+
+def handle_no_qualifying_loans():
+    print("Sorry, we could not find any qualifying loans for your entries!")
+    repeat = questionary.confirm("Would you like to try again with different inputs?").ask()
+    if repeat:
+        fire.Fire(run()) # re-run loan qualifier app
+    else :
+        graceful_exit()  # exit app
+
+
+
 def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_value):
     """Determine which loans the user qualifies for.
 
@@ -96,8 +110,13 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
     bank_data_filtered = filter_credit_score(credit_score, bank_data_filtered)
     bank_data_filtered = filter_debt_to_income(monthly_debt_ratio, bank_data_filtered)
     bank_data_filtered = filter_loan_to_value(loan_to_value_ratio, bank_data_filtered)
+    bank_data_filtered_length = len(bank_data_filtered)
 
-    print(f"Found {len(bank_data_filtered)} qualifying loans")
+    # Handle No Loans found gracefully
+    if bank_data_filtered_length == 0 :
+        handle_no_qualifying_loans()
+    else :
+        print(f"Found {bank_data_filtered_length} qualifying loans")
 
     return bank_data_filtered
 
@@ -108,9 +127,19 @@ def save_qualifying_loans(qualifying_loans):
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
     """
-    # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
-    save_csv()
+    save_confirmation = questionary.confirm("Would you like to save the qualifying loans as a csv file?").ask()
+    # exit app 
+    if not save_confirmation:
+        graceful_exit()
+
+    csvpath = questionary.text("Enter a file path where you would like to save the qualifying loans (.csv):").ask()
+    csvpath = Path(csvpath)
+    if not csvpath.exists():
+        print(f"Oops! Can't find this path: {csvpath}")
+        save_qualifying_loans(qualifying_loans)
+
+    save_csv(qualifying_loans, csvpath)
 
 
 def run():

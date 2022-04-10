@@ -40,5 +40,5 @@ def save_csv(data, csvpath):
     with open(csvpath, "w") as csvfile:
         csvwriter = csv.writer(csvfile)
         for data_row in data:
-            csvwriter.writerow(data_row.values())
+            csvwriter.writerow(data_row)
 
